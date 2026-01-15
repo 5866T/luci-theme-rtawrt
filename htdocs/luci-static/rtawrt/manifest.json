@@ -1,12 +1,12 @@
 {
-"name":"RTA-WRT",
-"short_name":"RTA-WRT",
-"description":"RTA-WRT for OpenWRT by Rizkikotet.",
+"name":"Design",
+"short_name":"Design",
+"description":"Design for OpenWRT.",
 "start_url":"/",
 "scope": "/",
 "orientation":"portrait",
 "display":"standalone",
-"prompt_message":"RTA-WRT",
+"prompt_message":"Design",
 "icons":[
 {
 "src":"images/icon.png",
