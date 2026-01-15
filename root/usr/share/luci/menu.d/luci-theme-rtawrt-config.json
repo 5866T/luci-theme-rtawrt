@@ -1,5 +1,5 @@
 {
-	"admin/system/rtawrt-config": {
+	"admin/system/design-config": {
 		"title": "Design Config",
 		"order": 90,
 		"action": {
