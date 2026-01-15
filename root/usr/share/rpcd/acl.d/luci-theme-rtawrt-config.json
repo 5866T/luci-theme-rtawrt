@@ -1,11 +1,11 @@
 {
 	"luci-theme-rtawrt-config": {
-		"description": "Grant UCI access for luci-theme-rtawrt-config",
+		"description": "Grant UCI access for luci-theme-design-config",
 		"read": {
-			"uci": [ "rtawrt" ]
+			"uci": [ "design" ]
 		},
 		"write": {
-			"uci": [ "rtawrt" ]
+			"uci": [ "design" ]
 		}
 	}
 }
