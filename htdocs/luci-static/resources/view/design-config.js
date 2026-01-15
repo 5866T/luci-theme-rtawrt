@@ -10,15 +10,15 @@
 return view.extend({
 	load: function() {
 		return Promise.all([
-			uci.load('rtawrt')
+			uci.load('design')
 		]);
 	},
 
 	render: function(data) {
 		var m, s, o;
 
-		m = new form.Map('rtawrt', _('RTA-WRT theme configuration'),
-			_('Here you can set rtawrt theme. Chrome is recommended.'));
+		m = new form.Map('design', _('Design theme Config'),
+			_('Here you can set design theme. Chrome is recommended.'));
 
 		s = m.section(form.TypedSection, 'global', _('Theme configuration'));
 		s.addremove = false;
